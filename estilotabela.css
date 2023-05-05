@@ -4,4 +4,27 @@ table tr th, table tr td{
 }
 table{
     border-collapse: collapse;
+    
+}
+
+
+header nav ul {
+    list-style-type: none;
+    display: flex;    
+}
+
+
+header nav ul li a {
+    text-decoration: none;
+    padding: 1rem;    
+    color: var(--black);
+    color:var(--texto);
+    font-weight: bold;
+}
+  
+    
+
+h1{
+    color:tomato;
+    width: 300px;
 }
