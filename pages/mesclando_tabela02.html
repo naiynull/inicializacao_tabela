@@ -5,21 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilotabela.css" />
+    <link rel="stylesheet" href="../css/estilotabela.css" />
     <title>Document</title>
 </head>
 
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">home</a>
+                </li>
+                <li>
+                    <a href="../pages/tabela_matriz.html">matriz tabela</a>
+                </li>
+                <li>
+                    <a href="../pages/mesclando_tabela02.html">mesclando</a>
+                </li>
+                <li>
+                    <a href="../pages/formulario.html">formulario</a>
+                </li>
+                <li>
+                    <a href="../pages/Ancora.html">Âncora</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <div>
-    <h1>Aprendendo Tabela</h1>
-    <p>colspan->linhas</br>
-    rowspan->colunas </p>
-</div>
+        <h1> Tabelas</h1>
+    </br>
+        <p>colspan->linhas</br>
+            rowspan->colunas </p>
+    </div>
+    <div class="tabela">
     <table>
         <tr>
             <td rowspan="3"></td>
             <td colspan="4"></td>
-        </tr>
         <tr>
             <td colspan="2"></td>
             <td colspan="2"></td>
@@ -35,8 +57,7 @@
             <td></td>
         </tr>
     </table>
-    </br>
-
+    <br>
     <table>
         <tr>
             <td colspan="4"></td>
@@ -49,29 +70,45 @@
         </tr>
         <tr>
             <td rowspan="2"></td>
-        </tr>
-        <tr>
             <td></td>
             <td rowspan="2"></td>
         </tr>
         <tr>
-            <td colspan="2"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
         </tr>
     </table>
+    <br>
     <table>
         <tr>
+            <td colspan="3"></td>
+            <td></td>
+            <td rowspan="5"></td>
+        </tr>
+        <tr>
+            <td></td>
             <td></td>
             <td colspan="2"></td>
         </tr>
         <tr>
             <td rowspan="2"></td>
             <td></td>
-            <td rowspan="2"></td>   
+            <td rowspan="3"></td>
         </tr>
         <tr>
             <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td></td>
         </tr>
     </table>
+</div>
 </body>
 
 </html>
